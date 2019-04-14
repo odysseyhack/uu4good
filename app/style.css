@@ -1,0 +1,147 @@
+.dataset-data {
+	display: none;
+}
+
+.arrow_box {
+	padding: 10px;
+}
+
+.panel-primary ul li:hover {
+	background: #eee !important;
+}
+
+#drop-zone {
+	display: none;
+}
+
+.dataset-levels {
+	margin-top: 50px;
+	display: none;
+}
+
+.dataset-privacy-breach-levels {
+	display: none;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    color: #000;
+    background-color: #f5f5f5;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px dashed #ddd;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #eee;
+    border-radius: 5px;
+    border: 2px dashed #ddd;
+}
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+
+.verify-dataset {
+	
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.verify-dataset:hover {
+	background: #eee;
+}
+
+.verify-dataset a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.verify-dataset a i {
+	margin-right: 10px;
+}
+
+
+.container {
+	max-width: 100% !important;
+	padding: 0 !important;
+}
+
+#container-step1, #container-step2, #container-step3, #container-step4 {
+	padding: 100px 100px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.mb-3 {
+	margin-bottom: 0 !important;
+}
+
+.mb-4 {
+	margin-bottom: 0 !important;
+}
+
+#container-step1 {
+	background: transparent linear-gradient(270deg,#5b72de,#745ff9);
+}
+
+#container-step2 {
+	display: none;
+	background: #fff;
+}
+
+#container-step3 {
+	display: none;
+	background: transparent linear-gradient(270deg,#5b72de,#745ff9);
+}
+
+#container-step3 h1.display-4, #container-step3 p.lead {
+	color: #fff !important;
+}
+#container-step3 p.lead {
+	opacity: 0.8;
+}
+
+#container-step3 .pt-md-5 {
+	padding-top: 0 !important;
+	margin-top: 0 !important;
+}
+
+#container-step4 {
+	display: none;
+	
+}
+
+#container-step4-loadingscreen {
+	display: none;
+}
+
+
+#dataset-breachlevel1-alg {
+	display: none;
+}
+
+#dataset-breachlevel2-alg {
+	display: none;
+}
+
+#dataset-breachlevel3-alg {
+	display: none;
+}
